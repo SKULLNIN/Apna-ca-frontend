@@ -1,0 +1,13 @@
+[
+  {
+    "id": "newsletter_1742336576106",
+    "email": "test@example.com",
+    "name": "Test User",
+    "interests": [
+      "tax",
+      "accounting"
+    ],
+    "subscriptionDate": "2025-03-18T22:22:56.106Z",
+    "timestamp": 1742336576106
+  }
+]

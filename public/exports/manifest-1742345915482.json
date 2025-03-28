@@ -1,0 +1,18 @@
+{
+  "timestamp": 1742345915482,
+  "files": [
+    "/exports/waitlist-emails-1742345915482.txt",
+    "/exports/waitlist-names-1742345915482.txt",
+    "/exports/newsletter-emails-1742345915482.txt",
+    "/exports/newsletter-names-1742345915482.txt",
+    "/exports/all-emails-1742345915482.txt",
+    "/exports/email-name-pairs-1742345915482.csv"
+  ],
+  "stats": {
+    "waitlistEmails": 0,
+    "waitlistNames": 0,
+    "newsletterEmails": 0,
+    "newsletterNames": 0,
+    "uniqueEmails": 0
+  }
+}

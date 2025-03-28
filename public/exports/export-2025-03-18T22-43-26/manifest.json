@@ -1,0 +1,17 @@
+{
+  "exportDate": "2025-03-18T22-43-26",
+  "files": [
+    "waitlist-emails.txt",
+    "waitlist-names.txt",
+    "newsletter-emails.txt",
+    "newsletter-names.txt",
+    "all-emails.txt"
+  ],
+  "stats": {
+    "waitlistEmails": 12,
+    "waitlistNames": 5,
+    "newsletterEmails": 1,
+    "newsletterNames": 1,
+    "totalUniqueEmails": 13
+  }
+}

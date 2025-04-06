@@ -84,7 +84,7 @@ const faqData = [
   
 ];
 
-
+// Data of every client will be store in client browser
 // Create OpenAI client - only when API key is available
 let openai: OpenAI | null = null;
 if (typeof window !== 'undefined') { // Only run on client side
@@ -170,7 +170,7 @@ export default function ChatBot({ autoOpen = true }: ChatBotProps) {
     
     checkChatbotStatus();
     
-    // Check if the device is mobile
+    // Check if the device is mobile ( pop issue fix hogya 
     if (typeof window !== 'undefined') {
       const checkMobile = () => {
         const mobileBreakpoint = 768; // Standard mobile breakpoint
@@ -415,7 +415,7 @@ export default function ChatBot({ autoOpen = true }: ChatBotProps) {
         content: question
       });
       
-      // Add system message for context
+      // Add system message for context ( system prompt )
       openAIMessages.unshift({
         role: 'system' as const,
         content: `You are ApnaCA Bot, a helpful assistant for Apna CA - an accounting services platform for small businesses in India.

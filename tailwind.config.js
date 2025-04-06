@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+// animation and all shits par need updated tailwind config
 module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',

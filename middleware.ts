@@ -3,7 +3,7 @@ import type { NextRequest } from 'next/server';
 
 export function middleware(request: NextRequest) {
   try {
-    // Skip processing for favicon.ico
+    // Skip processing for favicon.ico cause idhar lafda hora hai 
     if (request.nextUrl.pathname === '/favicon.ico') {
       return NextResponse.next();
     }
@@ -13,7 +13,7 @@ export function middleware(request: NextRequest) {
     // Clone response to allow setting headers
     const modifiedResponse = new NextResponse(response.body, response);
     
-    // Add security headers ( ramework error )
+    // Add security headers ( ramework error ) 
     modifiedResponse.headers.set('X-Content-Type-Options', 'nosniff');
     modifiedResponse.headers.set('X-Frame-Options', 'DENY');
     modifiedResponse.headers.set('X-XSS-Protection', '1; mode=block');

@@ -25,7 +25,7 @@ const NewsletterForm = () => {
     setError('');
 
     try {
-      // Track form submission attempt
+      // Track form submission attempt ( connected to database)
       track('newsletter-form-submit-attempt', {
         hasInterests: interests.length > 0
       });
